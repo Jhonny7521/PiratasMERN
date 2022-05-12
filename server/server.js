@@ -14,10 +14,11 @@ app.use(
 )
 
 //Inicializa BD
-require("./server/config/mongoose.config")
+require("./config/mongoose.config")
 
 //Importar rutas
-const misRutas = require("./server/routes/pirata.routes")
+// const misRutas = require("./server/routes/pirata.routes")
+const misRutas = require("./routes/pirata.routes")
 misRutas(app);
 
 //Ejecutamos server

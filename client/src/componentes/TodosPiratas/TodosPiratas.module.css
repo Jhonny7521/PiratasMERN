@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  background-color: #125B50;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+
+}
+
+.cont{
+margin: 40px auto;
+display: flex;
+justify-content: center;
+}
+
+.boton{
+  background-color: orange;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  height: 30px;
+  width: 130px;
+  margin-left: 100px;
+}
+
+.detpirata{
+  background-color: white;
+  width: 800px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.nombreP{
+  display: flex;
+  justify-content: center;
+}
+
+.bloque{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btns{
+  display: flex;
+  justify-content: space-around;
+}

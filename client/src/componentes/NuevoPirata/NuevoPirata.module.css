@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  background-color: #125B50;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+
+}
+
+.boton{
+  background-color: orange;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+  margin-left: 100px;
+}
+
+.row{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.col1{
+  width: 500px;
+}
+
+.col2{
+  width: 500px;
+}

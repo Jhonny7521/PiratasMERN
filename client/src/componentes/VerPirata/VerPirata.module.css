@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  background-color: #125B50;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+
+}
+
+.boton{
+  background-color: orange;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+  margin-left: 100px;
+}
+
+.img{
+  margin: 30px;
+}
+
+.frase{
+  margin-top: 20px;
+}
+
+.datos{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btns1{
+  width: 50px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  background-color: red;
+  color: white;
+}
+
+.btns2{
+  width: 50px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  background-color: green;
+  color: white;
+}
